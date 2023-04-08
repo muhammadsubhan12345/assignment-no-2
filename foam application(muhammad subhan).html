@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<title>Application Form</title>
+
+<style>
+
+         h1 {
+         text-align: center;
+            }
+         fieldset {background:#4c85b4}
+         
+
+
+</style>
+
+    
+</head>
+
+<body>
+        <body bgcolor="lightblue">
+        <h1>Application Form</h1>
+
+<fieldset>
+
+        <font color="White">
+         <h2>A.General Questions</h2>
+
+</fieldset>
+
+<form>
+         <font color="Black">
+
+        <br>
+        <label><b>Proposed Insured's Name:</b>
+        <input type="text" name="person_name" placeholder="Muhammad Subhan " required>
+        </label> 
+    
+
+        <br>
+        <label><small><em>(Please Use Capital Letters)</em></small></label>
+        <br><br>
+
+
+
+        <label><b>Birth Date:</b></label>
+        <input type="date" name="date_of_birth" required>
+
+
+
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Gender</b>:</label>
+        <input type="radio" name="gender" id="Male" value="Male" required>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Female" value="Female" required>
+        <label for="Female">Female</label>
+
+
+
+        <br></br>
+        <label><strong>Address:</strong>
+        <input type="text" name="person_address" placeholder="1-E 14/5 nazimabad # 1 " required>
+        </label>
+        
+        <br><br>
+        <label><b>Phone Number:</b>
+        <input type="number" name="phone_number" placeholder="+923203290184" required>
+        </label>
+
+
+        <label><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email Address:</b>
+        <input type="email" name="email_address" placeholder="hellowandhyee@gmail.com">
+        </label>
+        
+        
+        <br><br>
+        <label><b>ID Number:</b>
+        <input type="number" name="id_number" required>
+        </label>
+        <label><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Social Security Number:</b>
+        <input type="number" name="id_number" required>
+        </label>
+
+
+        <br><br>
+        <label><b>Status:</b>
+        <input type="radio" name="status" id="single" value="single" required>
+        <label for="single">Single</label>
+        <input type="radio" name="status" id="married" value="married" required>
+        <label for="married">Married</label>
+        <input type="radio" name="status" id="divorced" value="divorced" required>
+        <label for="divorced">Divorced</label>
+        <input type="radio" name="status" id="other" value="other" required>
+        <label for="other">Other</label>
+
+
+        <br><br>
+        <label><strong>Occupation:</strong>
+        <input type="text" name="person_occupation" required>
+        </label>
+
+
+        <label><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Are you a retiree?</b>
+        <input type="radio" name="option" id="Yes" value="Yes" required>
+        <label for="Yes">Yes</label>
+        <input type="radio" name="option" id="No" value="No" required>
+        <label for="No">No</label>
+
+
+</font>
+
+</form>
+
+<br><br>
+
+
+<fieldset>
+
+     <font color="White">
+     <h2>B.Type Of Health Coverage</h2>
+
+</fieldset>
+
+<form>
+     <font color="Black">
+
+     <br>
+
+
+<table border=1>
+     <tbody>
+
+     <tr>
+
+     <td><b>Employee:</b>
+        <input type="radio" name="choose" id="Yes" value="Yes" required>
+        <label for="Yes">Yes</label>
+        <input type="radio" name="choose" id="No" value="No" required>
+        <label for="No">No</label>
+        <br><br>
+        <b>Plan Choice:</b><input type="text" name="person_choose" required></b></td>
+     </td>
+     
+
+     <td><b>Spouse:</b>
+        <input type="radio" name="choice" id="Yup" value="Yup" required>
+        <label for="Yup">Yes</label>
+        <input type="radio" name="choice" id="Nope" value="Nope" required>
+        <label for="Nope">No</label>
+        <br><br>
+        <b>Plan Choice:</b><input type="text" name="person_choose" required></b></td>
+     </td>
+     
+
+     <td><b>Children:</b>
+        <input type="radio" name="choise" id="han" value="han" required>
+        <label for="han">Yes</label>
+        <input type="radio" name="choise" id="Nhi" value="Nhi" required>
+        <label for="Nhi">No</label>
+        <br><br>
+        <b>Plan Choice:</b><input type="text" name="person_choose" required></b></td>
+     </td>
+     
+
+     </tr>
+
+   
+     
+   </tbody>
+
+     
+
+
+</table>
+
+
+<p>Complete if Spouse/Children are Proposed for insurance:</p>
+
+<table border="1">
+
+<thead>
+
+<tr>
+
+<th scope="col">Name</th>   
+<th scope="col">SSN No.</th>
+<th scope="col">Relationship to <br> proposed insured </th>
+<th scope="col">Birth <br> date</th>
+<th scope="col">Age</th>
+<th scope="col">Sex</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+   <td><b><input type="text" name="person_text" required></b></td>
+   <td><b><input type="number" name="person_ssn.no" required></b></td>
+   <td><b><input type="text" name="person_relationship" required></b></td>
+   <td><b><input type="date" name="person_bd" required></b></td>
+   <td><b><input type="number" name="person_age" required></b></td>
+   <td><b><input type="text" name="person_sex" required></b></td>
+
+
+</tr>
+
+<tr>
+
+   <td><b><input type="text" name="person_text" required></b></td>
+   <td><b><input type="number" name="person_ssn.no" required></b></td>
+   <td><b><input type="text" name="person_relationship" required></b></td>
+   <td><b><input type="date" name="person_bd" required></b></td>
+   <td><b><input type="number" name="person_age" required></b></td>
+   <td><b><input type="text" name="person_sex" required></b></td>
+
+
+</tr>
+
+<tr>
+
+   <td><b><input type="text" name="person_text" required></b></td>
+   <td><b><input type="number" name="person_ssn.no" required></b></td>
+   <td><b><input type="text" name="person_relationship" required></b></td>
+   <td><b><input type="date" name="person_bd" required></b></td>
+   <td><b><input type="number" name="person_age" required></b></td>
+   <td><b><input type="text" name="person_sex" required></b></td>
+
+
+</tr>
+
+<tr>
+
+   <td><b><input type="text" name="person_text" required></b></td>
+   <td><b><input type="number" name="person_ssn.no" required></b></td>
+   <td><b><input type="text" name="person_relationship" required></b></td>
+   <td><b><input type="date" name="person_bd" required></b></td>
+   <td><b><input type="number" name="person_age" required></b></td>
+   <td><b><input type="text" name="person_sex" required></b></td>
+
+</tr>
+
+
+
+</tbody>
+
+
+
+</table>
+
+
+
+</font>
+
+
+
+</form>
+
+
+
+<br><br>
+
+
+
+<fieldset>
+
+   <font color="White">
+   <h2>C.The Policy</h2>
+
+</fieldset>
+
+<form>
+   
+   <font color="Black">
+
+   <br>
+
+   <label><strong>Units:</strong>
+      <input type="text" name="person_units" required>
+   </label>
+
+
+
+   <label><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Annual Premium:</b>
+      <input type="text" name="person_annual" required>
+   </label>
+
+
+      <br><br>
+
+      <label><b>Payment Mode:</b>
+         <input type="radio" name="p_mode" id="annual" value="annual" required>
+         <label for="annual">Annual</label>
+         <input type="radio" name="p_mode" id="semi_annual" value="semi_annual" required>
+         <label for="semi_annual">Semi-Annual</label>
+         <input type="radio" name="p_mode" id="monthly pat" value="monthly pat" required>
+         <label for="monthly pat">Monthly PAT (complete PAT card)</label>   
+         
+       <br><br>
+
+      <label><strong>Cash with Apllication: $</strong>
+         <input type="text" name="person_application" required>
+      </label>
+
+
+
+      <br><br>
+
+
+      <label><strong>Planned Modal Premium: $</strong>
+         <input type="text" name="person_palnned_model" required>
+      </label>
+
+
+     <br><br>
+      <label><strong>Signature:</strong>
+         <input type="text" name="person_signature" required>
+      </label>
+
+
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Date:</b></label>
+      <input type="text" name="person_date" required>
+    
+
+
+</font>
+
+<font color="Sky Blue">
+
+
+
+<br><br>
+   <label><strong>Terms & Conditions</strong>
+   <br>  
+   <label><small>Improvement should be measured regularly and assessed in <br> order for you to know what's beneficial and what is not. This will <br> help you set new targets.</small></label>
+   </label>
+
+
+
+</font>
+
+
+
+</form>
+
+
+
+
+</body>
